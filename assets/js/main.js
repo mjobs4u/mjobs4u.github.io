@@ -170,7 +170,7 @@
   // -----------------------------------------
   const form = document.getElementById('contactForm');
   if (form && window.emailjs) {
-    emailjs.init('EzWJ6rJQH0ryvTlSZ');
+    emailjs.init('qGle76OP1oRDPjI_Z');
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -181,7 +181,7 @@
         btn.disabled = true;
       }
 
-      emailjs.sendForm('service_atkby8a', 'template_m5ciiih', this).then(
+      emailjs.sendForm('service_y9urxz2', 'template_yivo4qi', this).then(
         () => {
           this.style.display = 'none';
           const success = document.getElementById('formSuccess');
