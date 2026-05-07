@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" role="img" aria-label="ITC Infotech">
+  <g fill="none" stroke-width="9" stroke-linecap="round">
+    <path d="M20 60 Q60 18 130 22" stroke="#7a3d8f"/>
+    <path d="M30 70 Q70 28 140 32" stroke="#7a3d8f" opacity="0.85"/>
+    <path d="M150 26 Q200 8 280 18" stroke="#9bcf3a"/>
+    <path d="M155 36 Q205 18 285 28" stroke="#9bcf3a" opacity="0.85"/>
+  </g>
+  <g font-family="'Inter','Segoe UI',sans-serif" font-weight="700">
+    <text x="100" y="58" font-size="30" fill="#1d1d1d" letter-spacing="-0.5">ITC</text>
+    <text x="155" y="58" font-size="30" fill="#1d1d1d" font-weight="500" letter-spacing="0.5">INFOTECH</text>
+  </g>
+  <text x="100" y="80" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#3a3a3a">Business-friendly Solutions</text>
+</svg>

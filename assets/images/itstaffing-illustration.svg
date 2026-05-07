@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="IT staffing">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef4ee"/>
+      <stop offset="1" stop-color="#dfeadf"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="24" fill="url(#ibg)"/>
+
+  <!-- monitor -->
+  <rect x="120" y="80" width="360" height="220" rx="10" fill="#1f3046"/>
+  <rect x="135" y="95" width="330" height="190" rx="4" fill="#0f1c2e"/>
+  <rect x="260" y="300" width="80" height="14" fill="#1f3046"/>
+  <rect x="220" y="314" width="160" height="8" rx="2" fill="#1f3046"/>
+
+  <!-- code lines -->
+  <g font-family="'Fira Code',monospace" font-size="14" fill="#9bcf3a">
+    <text x="155" y="125">$ mjobs4u --hire</text>
+    <text x="155" y="150" fill="#7fb3ff">  role: "Senior Data Engineer"</text>
+    <text x="155" y="170" fill="#7fb3ff">  stack: ["Azure", "Databricks"]</text>
+    <text x="155" y="190" fill="#7fb3ff">  notice: "30 days"</text>
+    <text x="155" y="215" fill="#f08a2c">  shortlist: 4 candidates</text>
+    <text x="155" y="240" fill="#9bcf3a">  status: ready_to_interview</text>
+    <text x="155" y="265" fill="#fff">_</text>
+  </g>
+
+  <!-- floating skill tags -->
+  <g font-family="'Inter','Segoe UI',sans-serif" font-size="12" font-weight="600">
+    <g transform="translate(40,50)">
+      <rect width="90" height="32" rx="16" fill="#fff" stroke="#cfd9cf"/>
+      <text x="20" y="20" fill="#1f3046">Azure</text>
+    </g>
+    <g transform="translate(490,40)">
+      <rect width="90" height="32" rx="16" fill="#fff" stroke="#cfd9cf"/>
+      <text x="20" y="20" fill="#1f3046">SAP</text>
+    </g>
+    <g transform="translate(40,330)">
+      <rect width="110" height="32" rx="16" fill="#fff" stroke="#cfd9cf"/>
+      <text x="14" y="20" fill="#1f3046">Databricks</text>
+    </g>
+    <g transform="translate(470,340)">
+      <rect width="100" height="32" rx="16" fill="#fff" stroke="#cfd9cf"/>
+      <text x="18" y="20" fill="#1f3046">DevOps</text>
+    </g>
+  </g>
+</svg>

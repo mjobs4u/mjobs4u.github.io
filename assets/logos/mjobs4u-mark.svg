@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="MJobs4U">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7d5b"/>
+      <stop offset="1" stop-color="#1f5a40"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f08a2c"/>
+      <stop offset="1" stop-color="#d96a16"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="14" width="64" height="58" rx="10" fill="url(#b)"/>
+  <rect x="30" y="8" width="20" height="10" rx="2" fill="#1f3046"/>
+  <path d="M22 48 L34 36 L44 46 L56 30 L66 40 L66 64 L22 64 Z" fill="url(#a)" opacity="0.92"/>
+  <circle cx="56" cy="30" r="4" fill="#fff"/>
+</svg>

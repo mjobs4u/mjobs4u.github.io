@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-label="Recruiter and candidate meeting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef7ee"/>
+      <stop offset="1" stop-color="#fde7cc"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6f1ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="460" rx="24" fill="url(#bg)"/>
+  <!-- soft circles -->
+  <circle cx="500" cy="80" r="60" fill="#f08a2c" opacity="0.15"/>
+  <circle cx="80" cy="380" r="80" fill="#2f7d5b" opacity="0.12"/>
+
+  <!-- desk -->
+  <rect x="60" y="320" width="480" height="14" rx="4" fill="#c89a6a"/>
+  <rect x="80" y="334" width="14" height="80" fill="#a87a4a"/>
+  <rect x="506" y="334" width="14" height="80" fill="#a87a4a"/>
+
+  <!-- laptop -->
+  <rect x="240" y="280" width="160" height="42" rx="4" fill="#2c3e50"/>
+  <rect x="248" y="286" width="144" height="30" rx="2" fill="#dfe9f3"/>
+  <rect x="220" y="320" width="200" height="6" rx="2" fill="#1f2d3d"/>
+
+  <!-- coffee -->
+  <rect x="160" y="290" width="34" height="32" rx="3" fill="#fff" stroke="#cfae7a" stroke-width="2"/>
+  <path d="M194 296 q12 0 12 10 q0 10 -12 10" fill="none" stroke="#cfae7a" stroke-width="2"/>
+  <path d="M168 282 q2 -10 8 -10 M178 282 q2 -10 8 -10" stroke="#a87a4a" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- person left (recruiter) -->
+  <g>
+    <circle cx="170" cy="200" r="32" fill="#f3c8a3"/>
+    <path d="M138 232 q32 -12 64 0 l8 60 l-80 0 z" fill="#1f3046"/>
+    <rect x="156" y="290" width="28" height="36" fill="#2d4866"/>
+    <!-- hair -->
+    <path d="M140 188 q12 -28 38 -26 q22 2 26 22 q-8 -6 -22 -4 q-18 2 -42 8 z" fill="#2c1e14"/>
+    <!-- arm reaching -->
+    <path d="M198 244 q40 -8 70 14" stroke="#f3c8a3" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- person right (candidate) -->
+  <g>
+    <circle cx="430" cy="200" r="32" fill="#e0a880"/>
+    <path d="M398 232 q32 -12 64 0 l8 60 l-80 0 z" fill="#2f7d5b"/>
+    <rect x="416" y="290" width="28" height="36" fill="#3a5b48"/>
+    <!-- hair -->
+    <path d="M400 184 q14 -22 34 -18 q22 4 26 22 q-6 -2 -14 0 q-18 4 -46 4 z" fill="#1a0f08"/>
+    <!-- arm reaching -->
+    <path d="M402 244 q-40 -8 -70 14" stroke="#e0a880" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- handshake meeting point -->
+  <circle cx="300" cy="252" r="12" fill="#f08a2c" opacity="0.4"/>
+  <circle cx="300" cy="252" r="6" fill="#f08a2c"/>
+
+  <!-- floating tags -->
+  <g font-family="'Inter','Segoe UI',sans-serif" font-size="13" font-weight="600">
+    <rect x="60" y="100" width="140" height="38" rx="19" fill="url(#card)" stroke="#e6d3b8"/>
+    <text x="80" y="124" fill="#1f3046">SAP Consultant</text>
+    <rect x="400" y="60" width="140" height="38" rx="19" fill="url(#card)" stroke="#e6d3b8"/>
+    <text x="420" y="84" fill="#1f3046">Data Engineer</text>
+    <rect x="380" y="140" width="170" height="38" rx="19" fill="url(#card)" stroke="#e6d3b8"/>
+    <text x="400" y="164" fill="#1f3046">Cloud Architect</text>
+  </g>
+</svg>

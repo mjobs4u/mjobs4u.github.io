@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Contact us">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fef7ee"/>
+      <stop offset="1" stop-color="#fde7cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="24" fill="url(#cbg)"/>
+
+  <!-- envelope -->
+  <g transform="translate(150,90)">
+    <rect width="300" height="200" rx="12" fill="#fff" stroke="#cfae7a" stroke-width="2"/>
+    <path d="M0 0 L150 130 L300 0" fill="none" stroke="#cfae7a" stroke-width="2"/>
+  </g>
+
+  <!-- pin -->
+  <g transform="translate(420,40)">
+    <path d="M30 0 a30 30 0 1 1 -0.1 0 z" fill="#d96a16"/>
+    <circle cx="30" cy="30" r="10" fill="#fff"/>
+    <path d="M30 60 L18 90 L42 90 z" fill="#d96a16"/>
+  </g>
+
+  <!-- phone -->
+  <g transform="translate(60,310)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#2f7d5b"/>
+    <path d="M22 24 q-4 -8 6 -10 l8 -2 q6 -1 10 6 l4 8 q3 6 -3 12 q-2 2 -1 5 q4 12 16 16 q3 1 5 -1 q6 -6 12 -3 l8 4 q7 4 6 10 l-2 8 q-2 10 -10 6 q-30 -4 -50 -24 q-20 -20 -24 -50 z" fill="#fff" transform="translate(0,0) scale(0.7)"/>
+  </g>
+</svg>

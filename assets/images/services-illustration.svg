@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Recruitment services workflow">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7ee"/>
+      <stop offset="1" stop-color="#fde7cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" rx="24" fill="url(#sbg)"/>
+
+  <!-- pipeline -->
+  <g font-family="'Inter','Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#1f3046">
+    <g transform="translate(40,80)">
+      <rect width="120" height="80" rx="14" fill="#fff" stroke="#e6d3b8"/>
+      <text x="20" y="32">Sourcing</text>
+      <text x="20" y="56" font-size="11" font-weight="400" fill="#5b6878">Targeted outreach</text>
+    </g>
+    <g transform="translate(180,80)">
+      <rect width="120" height="80" rx="14" fill="#fff" stroke="#e6d3b8"/>
+      <text x="20" y="32">Screening</text>
+      <text x="20" y="56" font-size="11" font-weight="400" fill="#5b6878">Tech + culture</text>
+    </g>
+    <g transform="translate(320,80)">
+      <rect width="120" height="80" rx="14" fill="#fff" stroke="#e6d3b8"/>
+      <text x="20" y="32">Interviews</text>
+      <text x="20" y="56" font-size="11" font-weight="400" fill="#5b6878">Coordinated</text>
+    </g>
+    <g transform="translate(460,80)">
+      <rect width="120" height="80" rx="14" fill="#2f7d5b" stroke="#1f5a40"/>
+      <text x="20" y="32" fill="#fff">Hired</text>
+      <text x="20" y="56" font-size="11" font-weight="400" fill="#cfe2c8">Day-1 ready</text>
+    </g>
+    <!-- arrows -->
+    <g stroke="#d96a16" stroke-width="2" fill="none">
+      <path d="M160 120 L180 120" marker-end="url(#arr)"/>
+      <path d="M300 120 L320 120" marker-end="url(#arr)"/>
+      <path d="M440 120 L460 120" marker-end="url(#arr)"/>
+    </g>
+    <defs>
+      <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M0 0 L10 5 L0 10 z" fill="#d96a16"/>
+      </marker>
+    </defs>
+  </g>
+
+  <!-- stack of resumes -->
+  <g transform="translate(60,220)">
+    <rect x="0" y="20" width="180" height="120" rx="6" fill="#fff" stroke="#cfae7a" transform="rotate(-3)"/>
+    <rect x="0" y="10" width="180" height="120" rx="6" fill="#fff" stroke="#cfae7a"/>
+    <line x1="14" y1="32" x2="160" y2="32" stroke="#5b6878" stroke-width="2"/>
+    <line x1="14" y1="52" x2="120" y2="52" stroke="#9aa3b2" stroke-width="2"/>
+    <line x1="14" y1="72" x2="140" y2="72" stroke="#9aa3b2" stroke-width="2"/>
+    <line x1="14" y1="92" x2="100" y2="92" stroke="#9aa3b2" stroke-width="2"/>
+  </g>
+
+  <!-- magnifier -->
+  <g transform="translate(340,240)">
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#1f3046" stroke-width="6"/>
+    <circle cx="60" cy="60" r="38" fill="#fde7cc"/>
+    <line x1="98" y1="98" x2="140" y2="140" stroke="#1f3046" stroke-width="10" stroke-linecap="round"/>
+    <text x="40" y="68" font-family="'Inter','Segoe UI',sans-serif" font-weight="700" font-size="18" fill="#2f7d5b">FIT</text>
+  </g>
+</svg>
